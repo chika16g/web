@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+.sub-ttl {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+.txt {
+  margin-bottom: 5%;
+}
+
+.more {
+  background-color: #cae8d8;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+}
+
+/* ====================================================
+header 
+======================================================= */
+
+header {
+  background-color: rgb(227, 203, 203);
+  background-image: url(../img/home.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  margin-bottom: 10%;
+}
+
+.header-wrapper__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 片山組topタイトル */
+.header-wrapper__flex__ttl {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.header-wrapper__flex__ttl img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.header-wrapper__flex__ttl h1 {
+  font-size: 1.25rem;
+  margin-left: 8px;
+}
+
+/* 片山組topメニュー */
+.header-wrapper__flex__nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper__flex__nav__list__item a {
+  display: block;
+  padding: 16px 0 16px 20px;
+}
+
+/* 明日を創る 未来を創る */
+.header-wrapper {
+  height: 100vh;
+  position: relative;
+}
+
+.header-wrapper__catchcopy {
+  font-size: 5rem;
+}
+
+.header-wrapper__catchcopy__left {
+  position: absolute;
+  top: 20%;
+}
+
+.header-wrapper__catchcopy__right {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+/* ====================================================
+business
+======================================================= */
+
+.business-wrapper__flex {
+  display: flex;
+}
+
+.business-wrapper__flex__left {
+  position: relative;
+  background-color: #eef2ed;
+  margin-right: 3%;
+  padding: 5% 15% 0% 5%;
+  bottom: 4.7rem;
+}
+
+.business-wrapper__flex__right{
+  margin: 5% 5% 5% -15%;
+  z-index: 1;
+}
